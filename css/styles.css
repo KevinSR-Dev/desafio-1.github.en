@@ -1,0 +1,77 @@
+html {
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  border: 2px solid red;
+}
+
+h2.name,
+.descripcion {
+  color: hsl(0, 0%, 100%);
+  font-family: "MyWebFont";
+}
+
+h2 + p {
+  color: hsl(75, 94%, 57%);
+}
+
+.content {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+}
+
+img {
+  border-radius: 50px;
+}
+.menu li {
+  list-style: none;
+}
+
+.menu {
+  padding-left: 0;
+}
+
+li a {
+  height: 30px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 0.4em;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: rebeccapurple;
+}
+
+a:focus {
+  color: hsl(75, 94%, 57%);
+  outline: 2px solid hsl(75, 94%, 57%);
+}
+
+a:hover {
+  color: hsl(75, 94%, 57%);
+  outline: 2px solid hsl(75, 94%, 57%);
+}
+
+a:active {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
